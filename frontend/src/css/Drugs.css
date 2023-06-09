@@ -1,0 +1,99 @@
+.drugs-screen-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-gap: 10px;
+    
+}
+
+.filter-container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.right-section {
+    grid-column-start: 4;
+    grid-column-end: -1;
+}
+
+.filter-list {
+    display: flex;
+    flex-direction: column;
+    max-height: 150px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+.search-bar {
+    width: 100%;
+}
+
+.categories-container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.filter-name-title {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.filters-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.apply-filter-button {
+    height: 40px;
+    width: 100%;
+    margin-top: 15px !important;
+    font-size: 1px;
+}
+
+.drug-list-container {
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.drug-name {
+    margin: 0;
+}
+.drug-price {
+    margin: 0;
+}
+.buy-button {
+    margin-top: 10px !important;
+}
+
+.drug-card {
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 8.5em;
+}
+
+.cart-section {
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.count {
+    margin: 0;
+}
+
+.checkbox-text {
+    font-size: 14px;
+    margin: 0;
+}

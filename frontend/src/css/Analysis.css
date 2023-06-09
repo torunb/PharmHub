@@ -1,0 +1,13 @@
+.anal-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.anal-item-order-count {
+    margin-bottom: 39px;
+}
+
+.anal-item-average {
+    margin-bottom: 38px;
+}

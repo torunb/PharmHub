@@ -1,0 +1,11 @@
+.active {
+    background-color: #d3d3d3 !important;
+}
+
+.account-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
